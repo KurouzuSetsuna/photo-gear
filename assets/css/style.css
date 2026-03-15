@@ -125,3 +125,13 @@ a:hover { text-decoration: underline; }
   .item-grid { grid-template-columns: repeat(2, 1fr); }
   .article-list { grid-template-columns: 1fr; }
 }
+
+/* ===== Related Articles Cards ===== */
+.related-articles .article-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.related-articles .article-card { border: 1px solid var(--color-border); border-radius: var(--radius); padding: 1rem; transition: all 0.2s; }
+.related-articles .article-card:hover { border-color: var(--color-primary); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.related-articles .article-card h3 { font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.4; }
+.related-articles .article-card h3 a { color: var(--color-text); }
+.related-articles .article-card h3 a:hover { color: var(--color-primary); text-decoration: none; }
+.related-articles .article-card p { font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 0.5rem; line-height: 1.5; }
+.related-articles .article-card time { font-size: 0.75rem; color: var(--color-text-muted); display: block; }

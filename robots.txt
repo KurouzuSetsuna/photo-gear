@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://KurouzuSetsuna.github.io/photo-affiliate-hub/sitemap.xml
+Sitemap: https://photo-gear.jp/sitemap.xml
